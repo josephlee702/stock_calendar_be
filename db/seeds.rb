@@ -1,9 +1,18 @@
-# This file should ensure the existence of records required to run the application in every environment (production,
-# development, test). The code here should be idempotent so that it can be executed at any point in every environment.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Example:
-#
-#   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
-#     MovieGenre.find_or_create_by!(name: genre_name)
-#   end
+Trade.destroy_all
+User.destroy_all
+
+user1 = User.create(
+    name: "Joseph Lee", 
+    email: "jhjlee702@gmail.com", 
+    password: "ffffff", 
+    password_confirmation: "ffffff"
+  )
+
+trade1 = Trade.create(
+  date: "2025-05-08",
+  amount: 550.00
+)
+
+user1.trades << trade1
+
+puts "Seeded successfully!"
