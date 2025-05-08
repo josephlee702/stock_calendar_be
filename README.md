@@ -1,24 +1,10 @@
-# README
+Hi there! 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Profit/Loss calendar I created to aid my trading journey. 
 
-Things you may want to cover:
+If you are a fellow trader, I hope you find this easy to use.
 
-* Ruby version
+If you have any suggestions or want to request some features, please reach out to me at jhjlee702@gmail.com.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Thank you!
+Joe
