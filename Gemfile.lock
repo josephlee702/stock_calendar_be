@@ -365,7 +365,6 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
-  devise
   devise_token_auth
   faraday
   importmap-rails
